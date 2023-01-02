@@ -41,8 +41,12 @@ export default function Home() {
             <div className="text-center">
               <hr class="mx-auto my-8 w-96 h-px bg-gray-200 border-0" /> 
                 <h2 className="text-xl text-[#2EC4B6]">Contact Me</h2>
-                <p><a className="text-[#ff9f1c]" href="mailto:keichan10010@gmail.com">keichan10010@gmail.com</a> | 07538267533</p>
+                <p className=" mb-20"><a className="text-[#ff9f1c]" href="mailto:keichan10010@gmail.com">keichan10010@gmail.com</a> | 07538267533</p>
             </div>
+            <div className=" mb-10 text-center">
+              <p>&#169; Kei Chan 2022</p>
+            </div>
+
         </section>
       </main>
     </>
