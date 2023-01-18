@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <section className=" h-screen flex-column justify-center items-center mt-8">
+        <section className=" h-screen w-[600px] m-auto flex-column justify-center items-center mt-8">
             <div className=" flex items-center">
                 <div>
                   <Image src={keijoy2} alt="profile image" width={300} height={300} className="rounded-full"/>
@@ -30,21 +30,37 @@ export default function Home() {
                 <h2 className="text-xl text-[#2EC4B6]">Skills | Tech Stack</h2>
                 <p>HTML5 | CSS3 | Javascript | JQuery</p>
                 <p>React.js | Next.js | Tailwind</p>
-                <p>NodeJS | ExpressJS</p>
+                <p>Ruby | NodeJS | ExpressJS</p>
+                <p>Figma</p>
             </div>
             <div>
-              <hr class="mx-auto my-8 w-96 h-px bg-gray-200 border-0" /> 
+              <hr className="mx-auto my-8 w-96 h-px bg-gray-200 border-0" /> 
+                <h2 className="text-xl text-[#2EC4B6]">Projects</h2>
+                <p>Was in charge of the UI/UX desing and front-end of the following hackathon projects</p>
+                <br/>
+                <p>	Winner of the <br/> <span className=" text-[#2EC4B6]">Lloyds Banking Group x ShowCode Virtual Hackathon - Journey to Net Zero</span></p>
+                <ul>
+                  <li>Project Name: CarbonAltDelete</li>
+                </ul>
+                <br/> <br />
+                <p>	Overall second in  <br/> <span className=" text-[#2EC4B6]">MLH Eduhacks</span></p>
+                <ul>
+                  <li>Project Name: StudyPerks</li>
+                </ul>
+            </div>
+            <div>
+              <hr className="mx-auto my-8 w-96 h-px bg-gray-200 border-0" /> 
                 <h2 className="text-xl text-[#2EC4B6]">Education | Career</h2>
-                <p>Head Pastry chef at a Michelin star restaurant</p>
+                <p>Head Pastry chef at Kai Mayfair</p>
                 <p>A-Level: AAB</p>
             </div>
             <div className="text-center">
-              <hr class="mx-auto my-8 w-96 h-px bg-gray-200 border-0" /> 
+              <hr className="mx-auto my-8 w-96 h-px bg-gray-200 border-0" /> 
                 <h2 className="text-xl text-[#2EC4B6]">Contact Me</h2>
                 <p className=" mb-20"><a className="text-[#ff9f1c]" href="mailto:keichan10010@gmail.com">keichan10010@gmail.com</a> | 07538267533</p>
             </div>
             <div className=" mb-10 text-center">
-              <p>&#169; Kei Chan 2022</p>
+              <p>&#169; Kei Chan 2023</p>
             </div>
 
         </section>

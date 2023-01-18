@@ -12,12 +12,8 @@
 
 html,
 body {
-  max-width: 600px;
-  max-height: 100%;
-  margin: auto;
-  overflow-x: hidden;
   background: #F6F6F6;
-  font-family: 'Courier New', Courier, monospace
+  @apply font-mono;
 }
 
 a {
