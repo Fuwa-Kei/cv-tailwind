@@ -19,7 +19,7 @@ export default function Home() {
                   <Image src={keijoy2} alt="profile image" width={300} height={300} className="rounded-full"/>
                 </div>
                 <div>
-                  <h1 className=" font-Gaegu text-2xl text-[#2EC4B6]">Hi, I&apos;m Kei</h1>
+                  <h1 className=" font-Gaegu text-4xl text-[#2EC4B6] font-bold">Hi, I&apos;m Kei</h1>
                   <p className=" py-2">Pastry Chef for now</p>
                   <p className=" py-2 mb-3">Leveling up to evolve into a front-end developer and UI/UX designer</p>
                   <a className="text-[#ff9f1c]" href="https://github.com/Fuwa-Kei">GitHub</a>
@@ -27,7 +27,7 @@ export default function Home() {
             </div>
             <div>
               <hr className="mx-auto my-8 w-96 h-px bg-gray-200 border-0" /> 
-                <h2 className="text-xl text-[#2EC4B6]">Skills | Tech Stack</h2>
+                <h2 className="text-xl text-[#2EC4B6] font-bold uppercase">Skills | Tech Stack</h2>
                 <p>HTML5 | CSS3 | Javascript | JQuery</p>
                 <p>React.js | Next.js | Tailwind</p>
                 <p>Ruby | NodeJS | ExpressJS</p>
@@ -35,7 +35,7 @@ export default function Home() {
             </div>
             <div>
               <hr className="mx-auto my-8 w-96 h-px bg-gray-200 border-0" /> 
-                <h2 className="text-xl text-[#2EC4B6]">Projects</h2>
+                <h2 className="text-xl text-[#2EC4B6] font-bold uppercase">Projects</h2>
                 <p>Was in charge of the UI/UX desing and front-end of the following hackathon projects</p>
                 <br/>
                 <p>	Winner of the <br/> <span className=" text-[#2EC4B6]">Lloyds Banking Group x ShowCode Virtual Hackathon - Journey to Net Zero</span></p>
@@ -50,7 +50,7 @@ export default function Home() {
             </div>
             <div>
               <hr className="mx-auto my-8 w-96 h-px bg-gray-200 border-0" /> 
-                <h2 className="text-xl text-[#2EC4B6]">Education | Career</h2>
+                <h2 className="text-xl text-[#2EC4B6] font-bold uppercase">Education | Career</h2>
                 <p>Head Pastry chef at Kai Mayfair</p>
                 <p>A-Level: AAB</p>
             </div>
