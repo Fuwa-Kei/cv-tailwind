@@ -13,7 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <section className=" h-screen w-[600px] m-auto flex-column justify-center items-center mt-8">
+        <section className=" h-screen max-w-[600px] m-auto flex-column justify-center items-center mt-8 px-8 md:px-0">
             <div className=" flex items-center">
                 <div>
                   <Image src={keijoy2} alt="profile image" width={300} height={300} className="rounded-full"/>
