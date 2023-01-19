@@ -36,7 +36,7 @@ export default function Home() {
             <div>
               <hr className="mx-auto my-8 w-96 h-px bg-gray-200 border-0" /> 
                 <h2 className="text-xl text-[#2EC4B6] font-bold uppercase">Projects</h2>
-                <p>Was in charge of the UI/UX desing and front-end of the following hackathon projects</p>
+                <p>Was in charge of the UI/UX design and front-end of the following hackathon projects</p>
                 <br/>
                 <p>	Winner of the <br/> <span className=" text-[#2EC4B6]">Lloyds Banking Group x ShowCode Virtual Hackathon - Journey to Net Zero</span></p>
                 <ul>
@@ -52,6 +52,7 @@ export default function Home() {
               <hr className="mx-auto my-8 w-96 h-px bg-gray-200 border-0" /> 
                 <h2 className="text-xl text-[#2EC4B6] font-bold uppercase">Education | Career</h2>
                 <p>Head Pastry chef at Kai Mayfair</p>
+                <p>Computer Science at Kings College London &#40;Completed 2.5 years&#41;</p>
                 <p>A-Level: AAB</p>
             </div>
             <div className="text-center">
