@@ -22,7 +22,7 @@ export default function Home() {
                   <h1 className=" font-Gaegu text-4xl text-[#2EC4B6] font-bold">Hi, I&apos;m Kei</h1>
                   <p className=" py-2">Pastry Chef for now</p>
                   <p className=" py-2 mb-3">Leveling up to evolve into a front-end developer and UI/UX designer</p>
-                  <a className="text-[#ff9f1c]" href="https://github.com/Fuwa-Kei">GitHub</a>
+                  <a className="text-[#ff9f1c]" href="https://github.com/Fuwa-Kei">GitHub</a> | <a className="text-[#ff9f1c]" href="https://keichan.com">Portfolio</a>
                 </div>  
             </div>
             <div>
